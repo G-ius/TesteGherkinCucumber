@@ -28,7 +28,7 @@ namespace TesteContaBancaria
             Assert.Equal(saldo, _bankAccount.Saldo);
         }
 
-        [Then(@"a mensagem (""""Saldo insuficiente!"""") será exibida")]
+        [Then(@"a mensagem (Saldo insuficiente!) será exibida")]
         public void Then_the_result_will_be(string  ms)
         {
             Assert.Equal(ms,retorno);

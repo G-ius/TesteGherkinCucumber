@@ -9,4 +9,4 @@ Scenario: Saque
 Scenario: Unsaque
 	Given o saldo da conta é de 0
 	When o usuário solicitar um saque de 5000
-	Then a mensagem "Saldo insuficiente!" será exibida
+	Then a mensagem Saldo insuficiente! será exibida
